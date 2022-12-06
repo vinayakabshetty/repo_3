@@ -7,8 +7,7 @@ import org.testng.annotations.Test;
 public class NavigateToGoogle {
 	@Test
 	public void navigateToHomePage() {
-		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\Admin\\Desktop\\Eclipse workspace\\Maven_Selenium_Cucumber_Project\\src\\test\\resources\\drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", ".\\src\\test\\resources\\drivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.google.com");
 		driver.manage().window().maximize();

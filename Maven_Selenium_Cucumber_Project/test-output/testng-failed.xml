@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testcases.InterviewQuestions">
+      <class name="testcases.NavigateToGoogle">
         <methods>
-          <include name="EnterTextWithoutSendKeys"/>
+          <include name="navigateToHomePage"/>
         </methods>
-      </class> <!-- testcases.InterviewQuestions -->
+      </class> <!-- testcases.NavigateToGoogle -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
