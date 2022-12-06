@@ -11,7 +11,7 @@ public class NavigateToGoogle {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.google.com");
 		driver.manage().window().maximize();
-		System.out.println("I have fixed it");
+		System.out.println("Finally , Build triggered from Git Push webhook");
 		driver.quit();
 	}
 }
